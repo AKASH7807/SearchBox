@@ -10,15 +10,18 @@ body{
     width: 100%;
     display: flex;
     background: rgb(217,225,220);
+    
 }
 .container{
-    width: 400px;
-    height: 550px;
+    width: 380px;
+    height: 600px;
     background: #fff;
     box-shadow: 2px 3px 4px #9c9a9a,
     -2px -3px 4px #9c9a9a;
     border-radius:10px;
     overflow-y:scroll; 
+    padding-left:10px;
+    padding-right:10px;
 }
 .container::-webkit-scrollbar{
     display:none;
