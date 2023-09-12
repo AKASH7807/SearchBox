@@ -37,6 +37,7 @@ input{
     background:#99999996;
     border-radius: 5px;
     padding: 10px 10px;
+    cursor:pointer;
 }
 .product-list{
     padding-top: 20px;
@@ -58,4 +59,12 @@ h2{
     height: 80px;
     border-radius: 5px;
     object-fit:contain;
+}
+@media(max-width:678px)
+{
+    .container{
+        width:350px;
+        margin-right:10px;
+        margin-left:10px;
+    }
 }
